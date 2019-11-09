@@ -1,0 +1,19 @@
+```bash
+npm install
+```
+ ```javascript
+  db.createUser(
+    {
+      user: "your_username",
+      pwd: "your_password",
+      roles: [ { role: "readWrite", db: "your_database_name" } ]
+    }
+  )
+  ```
+```json
+"github": {
+  "clientID": "90dbc64a70298cebf27b",
+  "clientSecret": "a917fb7de683e9a2dc891becaf85321d7fce9fa2"
+}
+```
+
